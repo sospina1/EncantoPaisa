@@ -7,5 +7,6 @@
         public DateTime RealizationDate { get; set; }
         public DateTime Site { get; set; }
         public string? Cost { get; set; }
+        public bool IsCompleted { get; internal set; }
     }
 }
